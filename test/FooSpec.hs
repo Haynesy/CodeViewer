@@ -6,6 +6,6 @@ module FooSpec (main, spec) where
     main = hspec spec
 
     spec :: Spec
-    spec = describe "Foo" $
-            it "A Foo" $
-                "Foo" `shouldBe` "Foo"
+    spec = describe "Foo" $ do
+            it "A Foo" $ "Foo" `shouldBe` "Foo"
+            it "A Bar" $ "Bar" `shouldBe` "Bar"

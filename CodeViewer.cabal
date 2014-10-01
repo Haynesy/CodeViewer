@@ -31,4 +31,3 @@ test-suite spec
   main-is:          Spec.hs
   build-depends:    base  == 4.*,
                     hspec >= 1.3
-            
