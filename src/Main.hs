@@ -15,7 +15,7 @@ module Main where
         let width   = 640
             height  = 480
             
-        withWindow width height "CodeViewer :/" (\window -> do
+        withWindow width height "CodeViewer (v 0.1.0)" (\window -> do
             initOpenGL width height
             loop window
             exitWith ExitSuccess)

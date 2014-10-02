@@ -17,6 +17,7 @@ cabal-version:       >=1.10
 
 executable CodeViewer
   main-is:              Main.hs
+  ghc-options:          -O2 -with-rtsopts=-s -Wall -ddump-simpl -ddump-to-file
   -- other-modules:       
   -- other-extensions:    
   build-depends:        base >=4.7 && <4.8, 
